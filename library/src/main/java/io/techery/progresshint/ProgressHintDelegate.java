@@ -200,6 +200,10 @@ public abstract class ProgressHintDelegate implements OnSeekBarChangeListener {
     checkInitialState();
   }
 
+  public PopupWindow getPopup() {
+    return mPopup;
+  }
+
   @PopupStyle public int getPopupStyle() {
     return mPopupStyle;
   }
